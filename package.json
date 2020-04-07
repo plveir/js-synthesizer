@@ -46,7 +46,7 @@
     "url": "https://github.com/plveir/js-synthesizer.git"
   },
   "scripts": {
-    "build": "npm run build:ts && npm run build:lib:dev",
+    "prepare": "npm run build:ts && npm run build:lib:dev",
     "build:lib:dev": "better-npm-run build:lib:dev",
     "build:lib:minified": "better-npm-run build:lib:minified",
     "build:minified": "npm run build:ts && npm run build:lib:minified",
